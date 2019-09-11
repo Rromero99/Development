@@ -44,7 +44,7 @@ def write_to_specific_cell(cities):
         for j, col in enumerate(row):
             city_ws.cell(row=(5 + i), column=(2 + j)).value = col
             
-    xb2.save("specific.xlsx")
+    xc2.save("specific.xlsx")
 
 
 if __name__ == "__main__":
